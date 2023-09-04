@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Cursed";
+    src: url("fonts/CursedTimerULiL.ttf");
+}
+
+body {
+    margin: 0;
+    /* font-family: "Cursed"; */
+    background: #1B244A;
+    text-align: center
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 68px;
+}
+
+.card-result {
+    color: red;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #080001;
+    font-size: 90px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    font-family: "Cursed";
+
+}
+
+.card-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 45px;
+}
+
+.card-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    font-family: "Cursed";
+    cursor: pointer;
+}
